@@ -1,180 +1,176 @@
+<!DOCTYPE html>
+<html>
 <head>
-<title>Technology - BBC News</title>
-<style type=text/css>
+	<title>Technology - BBC News</title>
+	<style type="text/css">
+	
 	#topbar {
 		width: 1000px;
 		margin: 0 auto;
 		height: 40px;
 	}
-	body {
-		padding: 0;
+	body{
 		margin: 0;
+		padding: 0;
 		font-family: Helvetica, Arial, sans-serif;
 	}
 	#logo {
-		margin-top:8px;	
+		margin-top: 8px;
 		width: 100px;
 		float: left;
 		margin-right: 8px;
 	}
-	.topbar-section {
+	.topbar-section{
 		float: left;
-		border-left: 1px #CCCCCC solid;
-		height: 100%
+		border-left: 1px #CCCCCC solid; 
+		height: 100%;
 	}
-	
 	#signin-image {
-	width: 25px;
-	margin: 11px 15px;
-	float: left;
+		width: 25px;
+		margin: 11px 15px ;
+		float: left;
 	}
-	
-	#signin-text {
-	font-weight: bold;
-	font-size: 90%;
-	position: relative;
-	top: 14px;
-	padding-right: 50px;
+	#signin-text{
+		font-weight: bold;
+		font-size: 90%;
+		position: relative;
+		top: 13px;
+		padding-right: 50px;
 	}
-	
-	#line {
-	float: left;
-	height: 40px;
+	#wigglyline {
+		float: left;
+		height: 40px;
 	}
-	
 	#bell {
-	height: 30px;
-	margin: 9px 8px;
-	float: left;
-	
+		height: 25px;
+		margin: 9px 8px 0 8px;
 	}
-	
-	.topbar-menu {
-	font-weight: bold;
-	font-size: 90%;
-	padding: 13px 15px 0 15px;
-	height: 27px;
+	#bell-div{
+		float:left;
 	}
-	
-	#more-arrow {
-	width: 8px;
-	margin-left: 25px;
+	.topbar-menu{
+		font-weight: bold;
+		font-size: 90%;
+		padding: 13px 15px 0 15px;
+		height: 27px;
 	}
-	
-	#search-box{
-	background-color: #E4E4E4;
-	border: none;
-	font-weight: bold;
-	font-size: 12px;
-	padding: 5px;
-	margin: 5px 0 5px 5px;
-	float: left;
+	#more-arrow{
+		width: 16px;
+		margin-left: 20px;
 	}
-	
-	#search {
-	margin-top: 5px;
+           
+	#search-box {
+                background-color: #E4E4E4;
+                border:none;
+                font-weight: bold;
+                font-size: 14px;
+                padding:5px;
+                margin: 5px 0 5px 5px;
+                float: left;
 	}
-	
-	.clear {
-	clear: both;
+            
+     #magnifying-glass {
+                
+                height:27px;
+                margin-top:5px;
+                
+    }
+            
+	#clear{
+		clear: both;
 	}
-	
-	#menu-bar-container {
-	background-color: #BB1919;
-	width: 100%;
-	height: 70px;
+	#menu-bar-container{
+		background-color: #BB1919;
+		width: 100%;
+		height: 70px;
 	}
-	
-	#menu-bar {
+	#menu-bar{
 		width: 1000px;
 		margin: 0 auto;
-		}
-		
-		
-	h1 {
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 40px;
-	font-weight: normal;
-	padding-top: 0;
+	}
+	h1{
+		padding: 0;
+		margin: 0;
+		color: white;
+		font-size: 40px;
+		font-weight: normal;
+		padding-top: 10px;
+		float: left;
+	}
+	#local-news{
+		border: 1px #BB4545 solid;
+		float: left;
+		width: 180px;
+		padding: 5px 5px 0 10px;
+		margin: 5px 10px 0 0;
+		float: right;
+
 	}
 
-</style>
+	#local-news a {
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+		position: relative;
+		top:-15px;
+	}
+	#local-news a:hover{
+		text-decoration: underline;
+	}
+	#local-news img{
+		height: 40px;
+	}
+
+		</style>
 </head>
 <body>
 	<div id="topbar">
-		
-			<img id="logo" src="images/bbc-logo.png">
-		
-				<div id="signin-div" class="topbar-section">
-		
-					<img id="signin-image" src="images/signin-image.jpg">
-		
-					<span id="signin-text">Sign in</span>
-		
-				</div>
-		
+		<img id="logo" src="Images/bbc-logo.png">
+			<div id="signin-div" class="topbar-section">
+				<img id="signin-image" src="Images/signinimage.png">
+			
+				<span id="signin-text">Sign in</span>
+			</div>
 				<div id="bell-div">
-		
-					<img id="line" src="images/line.jpg">
-		
-					<img id="bell" src="images/bell.png">
-		
+					<img id="wigglyline" src="Images/wigglyline.png">		
+					<img id="bell" src="Images/bell.png">
 				</div>
-		
-				<div class="topbar-section topbar-menu">
+			<div class="topbar-section topbar-menu">
 					News
-		
 				</div>
-				
 				<div class="topbar-section topbar-menu">
 					Sport
-		
-				</div>
-				
+					</div>
 				<div class="topbar-section topbar-menu">
 					Weather
-		
-				</div>
-				
+					</div>
 				<div class="topbar-section topbar-menu">
 					iPlayer
-		
-				</div>
-				
+					</div>
 				<div class="topbar-section topbar-menu">
 					TV
-		
-				</div>
-				
+			</div>
 				<div class="topbar-section topbar-menu">
 					More
-						
-						<img id="more-arrow" src="images/more-arrow.png">
-						
-				</div>
-				<div class="topbar-section">
-				
+					<img id="more-arrow" src="Images/more-arrow.png">
+					</div>
+			<div class="topbar-section">
 					<input id="search-box" type="text" value="Search">
+					<input type="image" id="magnifying-glass" src="Images/magnifying-glass.png">
 				
-					<input type="image" id="search" src="images/search.png">
-				</div>
+				</div>	
 	</div>
-	
-	<div class="clear">
-	</div>
-	
+	<div class="clear"></div>
 	<div id="menu-bar-container">
-	
-	
-	
 		<div id="menu-bar">
-		
-		<h1>NEWS</h1>
-		
+			<h1>News</h1>
 		</div>
-	
+	<div id="local-news">
+		<a href="">Find local news</a>
+	<img src="Images/pointer.png">
+
 	</div>
+	</div>
+
 </body>
 </html>
